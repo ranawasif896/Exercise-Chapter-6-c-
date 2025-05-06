@@ -523,4 +523,109 @@ int main()
 
 
 
+//     int n,sum=0,count=0;
+// cout<<"Enter a how many sum of odd numbers::";
+// cin>>n;
+// for(int i=1;count<n;i+=2)
+// {
+//     sum+=i;
+//     count++;
+// }
+// cout<<"Sum of the first "<<n<<" odd numbers is"<<sum<<endl;
 
+
+
+// int base,start,end;
+// cout<<"Enter a base::";
+// cin>>base;
+// cout<<"enter a start: ";
+// cin>>start;
+// cout<<"Enter a end numer:";
+// cin>>end;
+// cout<<"MUltiple of "<<base<<"between"<<start<<"and"<<endl; 
+// for(int i=start;i<=end;i++)
+// {
+//     if(i%base==0)
+//     {
+//         cout<<i<<"\t";}
+  
+// }
+
+
+
+// int n,count=0;
+// cout<<"Enter a positive number::";
+// cin>>n;
+// if(n==0)
+// count=1;
+// else
+// {
+//     while(n>0)
+//     {
+//       n/=10;
+//       count++;
+//     }
+
+// }
+// cout<<"NUmber of digits is::"<<count;
+
+
+
+
+// int a,b,c,gcd=1;
+// cout<<"ENter a numbers:";
+// cin>>a>>b>>c;
+// int small=a;
+// if(b<small)
+// small=b;
+// if(c<small)
+// small=c;
+// for(int i=1;i<=small;i++)
+// {
+//     if(a%i==0&&b%i==0&&c%i==0)
+//     {
+//         gcd=i;
+//     }
+// }
+// cout<<"GCD digit is::"<< gcd<<endl;
+
+
+
+
+
+// int n,evencount=0,oddcount=0,primecount=0;
+// char choice;
+// bool isPrime(n)
+// if(n<=1)
+// return false;
+// for(int i=2;i<=n/2;i++){
+// if(n%i==0)
+// return false;}
+// return true;
+// do
+// {
+//     cout<<"Enter a number::";
+//     cin>>n;
+//     if(n%2==0){
+//     cout<<n<<" is a even number"<<endl;
+//     evencount++;}
+//     else{
+//     cout<<n<<" Is a odd number"<<endl;
+//     oddcount++;}
+//     if(isPrime(n)){
+
+//         cout<<n<<" is a prime number"<<endl;
+//         primecount++;}
+//         else
+//         cout<<n<<" is not a prime number"<<endl;
+//    cout<<"Do you wnat to another number(y for yes and n for no):"<<endl;
+//     cin>>choice;
+//     }
+ 
+// while(choice=='y'||choice=='Y');
+// cout<<"Total odd numbers is::"<<oddcount<<endl;
+// cout<<"Total even number is::"<<evencount<<endl;
+// cout<<"Total prime number is:"<<primecount<<endl;
+
+
+// }
