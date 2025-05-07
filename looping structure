@@ -734,3 +734,187 @@ int main()
 
 
 
+
+
+/Question NO:41
+
+
+    // cout << "Prime palindrome between 100 and 500 are::\n";
+
+    // for (int i = 100; i <= 500; i++) {
+    //     int n = i;
+    //     int rev = 0;
+    //     int num = n;
+
+    //     // Reverse the number
+    //     while (num > 0) {
+    //         int digit = num % 10;
+    //         rev = (rev * 10) + digit;
+    //         num /= 10;
+    //     }
+
+    //     // Check if palindrome
+    //     if (rev == n) {
+    //         // Check if prime
+    //         bool prime = true;
+    //         for (int j = 2; j < n; j++) {
+    //             if (n % j == 0) {
+    //                 prime = false;
+    //                 break;
+    //             }
+    //         }
+
+    //         if (prime)
+    //             cout << n << " ";
+    //     }
+    // }
+
+
+
+
+ //Question NO:42
+
+
+        // int x, y, z, max, lcm;
+        // cout << "Enter three numbers: ";
+        // cin >> x >> y >> z;
+        // if (x >= y && x >= z)
+        //     max = x;
+        // else if (y >= x && y >= z)
+        //     max = y;
+        // else
+        //     max = z;
+        // while (true) {
+        //     if (max % x == 0 && max % y == 0 && max % z == 0) {
+        //         lcm = max;
+        //         break;
+        //     }
+        //     max++;
+        // }
+        // cout << "LCM: " << lcm;
+
+
+
+//Question NO:43
+
+
+//         double earning,sale;
+       
+//         while(true){
+//  cout<<"Ener gross sales for the week::";
+//         cin>>sale;
+//         if(sale==-1){
+//         break;}
+//         earning =200+(sale*0.09);
+//         cout<<"Total earning for this week is::"<<earning<<endl;
+//         }
+//         cout<<"Porgram ended."<<endl;
+        
+
+
+
+//Question NO:44
+
+
+// int start,end;
+// cout<<"Enter a start number::";
+// cin>>start;
+// cout<<"Enter a end number::";
+// cin>>end;
+// for(int i=start;i<=end;i++)
+// cout<<"("<<i<<","<<i*i<<")"<<"\t";
+
+
+//Question NO:45
+
+
+
+// double  burns=3.9;
+// int arr[]={10,20,30,40,50};
+// int i;
+// for( i=0;i<5;i++){
+// double caloriesburned= arr[i]*burns;
+// cout<<"Total minutes"<<arr[i]<<"of calories burned are:"<< caloriesburned<<"calories"<<endl;
+// }
+
+
+
+
+//Question NO:46
+
+
+// int score,count=0;
+// while(true){
+//     cout<<"Enter scroe -1 to stop::";
+//     cin>>score;
+//     if(score==-1)
+//     break;
+//     if(score>60)
+//     count++;
+// }
+// cout<<"Total socre that are above 60 ::"<<count<<endl;
+
+//Question NO:47
+
+
+// int num, pos=0,neg=0;
+// cout<<"Enter a number of elements::";
+// cin>>num;
+// cout<<"Enter number"<<num<<"are"<<endl;
+// for(int i=0;i<=num;i++)
+// {
+//     int n;
+//     cin>>n;
+//     if(n>0)
+//     pos++;
+//     if(n<0)
+//     neg++;
+// }
+// cout<<"Total frequecny of positive numbers::"<<pos<<endl;
+// cout<<"Totral frequency of negative numbers::"<<neg<<endl;
+
+
+
+
+//Question NO:48
+
+
+// for(int i=1;i<=5;i++){
+//     for(int j=1;j<=5;j++)
+//     {
+//         if(i==1||i==5||j==1||j==5)
+//         cout<<"*";
+//         else
+//         cout<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+
+//Question NO:49
+
+// int n=5;
+// for(int i=1;i<=n;i++)
+// {
+//     for(int j=n;j>i;j--)
+//     cout<<" ";
+//     for(int k=1;k<=i;k++)
+//     cout<<k<<" ";
+//     cout<<endl;
+// }
+
+
+//Question NO:50
+
+
+// for(int i=5;i>=1;i--){
+//     for(int j=1;j<=i;j++)
+//     cout<<j<<" ";
+//     cout<<endl;
+// }
+
+        return 0;
+    }
+    
+   
