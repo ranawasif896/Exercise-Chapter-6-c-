@@ -665,7 +665,7 @@ int main()
 
 
 
-
+//Question NO:37
 
 
 // double num=1,den=3,sum=0.0;
@@ -681,7 +681,7 @@ int main()
 // cout<<"Sum is::"<<sum;
 
 
-
+//Question NO:39
 
 // int arr[]={1,2,3,4};
 // int n=4;
@@ -697,7 +697,7 @@ int main()
 //     cout<<arr[0]<<" "<<arr[1]<<" "<<arr[2]<<" "<<arr[3];
 
 
-
+//Question NO:40
 
 
 // int start,end;
